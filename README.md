@@ -1,2 +1,2 @@
 # nvim-config
-my current nvim config written in lua for macos
+my current nvim config for MacOs written in lua 
