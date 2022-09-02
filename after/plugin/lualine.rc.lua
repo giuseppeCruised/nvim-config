@@ -6,16 +6,16 @@ M.theme = function()
         gray = "#727169",
         innerbg = nil,
         outerbg = "#16161D",
-        normal = "#7e9cd8",
+        normal = "#9B2335",
         insert = "#3333ff",
-        visual = "#ffa066",
-        replace = "#e46876",
-        command = "#e6c384",
+        visual = "#00A170",
+        replace = "#ffa066",
+        command = "#143306",
         white = "#cccccc",
     }
     return {
         inactive = {
-            a = { fg = colors.gray, bg = colors.outerbg, gui = "bold" },
+            a = { fg = colors.gray, bg = colors.outerbg },
             b = { fg = colors.gray, bg = colors.outerbg },
             c = { fg = colors.gray, bg = colors.innerbg },
         },
@@ -30,7 +30,7 @@ M.theme = function()
             c = { fg = colors.gray, bg = colors.innerbg },
         },
         normal = {
-            a = { fg = colors.darkgray, bg = colors.normal, gui = "bold" },
+            a = { fg = colors.white, bg = colors.normal, gui = "bold" },
             b = { fg = colors.gray, bg = colors.outerbg },
             c = { fg = colors.gray, bg = colors.innerbg },
         },
@@ -40,7 +40,7 @@ M.theme = function()
             c = { fg = colors.gray, bg = colors.innerbg },
         },
         command = {
-            a = { fg = colors.darkgray, bg = colors.command, gui = "bold" },
+            a = { fg = colors.white, bg = colors.command, gui = "bold" },
             b = { fg = colors.gray, bg = colors.outerbg },
             c = { fg = colors.gray, bg = colors.innerbg },
         },
