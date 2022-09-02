@@ -11,7 +11,7 @@ M.theme = function()
         visual = "#00A170",
         replace = "#ffa066",
         command = "#143306",
-        white = "#cccccc",
+        white = "#c3c3c3",
     }
     return {
         inactive = {
