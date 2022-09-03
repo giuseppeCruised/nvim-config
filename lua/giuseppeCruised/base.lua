@@ -1,5 +1,6 @@
 vim.cmd("autocmd!")
 
+vim.opt.mouse = "a"
 vim.opt.termguicolors = true
 vim.opt.autoindent = true
 vim.opt.smartindent = true
@@ -17,7 +18,7 @@ vim.opt.number = true
 vim.opt.guicursor = ""
 vim.opt.wrap = false
 vim.opt.errorbells = false
-vim.opt.scrolloff = 8
+vim.opt.scrolloff = 4
 vim.opt.relativenumber = true
 
 -- Give more space for displaying messages.
