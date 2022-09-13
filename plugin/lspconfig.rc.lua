@@ -26,3 +26,11 @@ nvim_lsp.sumneko_lua.setup {
         }
     }
 }
+
+nvim_lsp.hls.setup {
+    on_attach = on_attach,
+    root_dir = vim.loop.cwd,
+    settings = {
+        rootMarkers = { "./git/" }
+    }
+}
