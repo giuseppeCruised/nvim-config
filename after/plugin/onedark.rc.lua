@@ -13,7 +13,8 @@ require('onedark').setup {
         background = true, -- use background color for virtual text
     },
     highlights = {
-        EndOfBuffer = { fg = '#00ffaa' },
+        EndOfBuffer = { fg = '#7f7f7f' },
+        -- EndOfBuffer = { fg = '#00ffaa' },
     }
 }
 require('onedark').load()
