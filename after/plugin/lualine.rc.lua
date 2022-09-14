@@ -4,9 +4,8 @@ M.theme = function()
     local colors = {
         darkgray = "#16161d",
         gray = "#727169",
-        innerbg = nil,
-        outerbg = "#16161D",
-        normal = "#9B2335",
+        innerbg = nil, outerbg = "#16161D",
+        normal = "#16161d",
         insert = "#3333ff",
         visual = "#00A170",
         replace = "#ffa066",
@@ -30,7 +29,7 @@ M.theme = function()
             c = { fg = colors.gray, bg = colors.innerbg },
         },
         normal = {
-            a = { fg = colors.white, bg = colors.normal, gui = "bold" },
+            a = { fg = colors.white, bg = colors.normal },
             b = { fg = colors.gray, bg = colors.outerbg },
             c = { fg = colors.gray, bg = colors.innerbg },
         },
@@ -50,5 +49,14 @@ end
 require("lualine").setup({
     options = {
         theme = M.theme(),
+    },
+    sections = {
+        lualine_a = { 'mode' },
+        lualine_b = { 'branch', 'diff', 'diagnostics' },
+        lualine_c = { 'filename' },
+        lualine_x = { 'filetype' },
+        lualine_y = {},
+        --lualine_y = { 'progress' },
+        lualine_z = { 'location' }
     },
 })

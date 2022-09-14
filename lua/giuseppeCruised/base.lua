@@ -19,7 +19,7 @@ vim.opt.guicursor = ""
 vim.opt.wrap = false
 vim.opt.errorbells = false
 vim.opt.scrolloff = 4
-vim.opt.relativenumber = true
+--vim.opt.relativenumber = true
 
 -- Give more space for displaying messages.
 vim.opt.cmdheight = 1
