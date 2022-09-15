@@ -4,7 +4,8 @@ M.theme = function()
     local colors = {
         darkgray = "#16161d",
         gray = "#727169",
-        innerbg = nil, outerbg = "#16161D",
+        innerbg = nil,
+        outerbg = "#16161D",
         normal = "#16161d",
         insert = "#3333ff",
         visual = "#00A170",
@@ -16,7 +17,7 @@ M.theme = function()
         inactive = {
             a = { fg = colors.gray, bg = colors.outerbg },
             b = { fg = colors.gray, bg = colors.outerbg },
-            c = { fg = colors.gray, bg = colors.innerbg },
+            c = { fg = colors.gray, bg = colors.outerbg },
         },
         visual = {
             a = { fg = colors.darkgray, bg = colors.visual, gui = "bold" },

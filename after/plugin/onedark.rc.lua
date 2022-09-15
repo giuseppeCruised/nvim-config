@@ -14,7 +14,9 @@ require('onedark').setup {
     },
     highlights = {
         EndOfBuffer = { fg = '#7f7f7f' },
+        Search = { fg = '#ffffff', bg = '#7f7f7f' }
         -- EndOfBuffer = { fg = '#00ffaa' },
     }
 }
+
 require('onedark').load()
